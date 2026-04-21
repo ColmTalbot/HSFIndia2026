@@ -23,6 +23,7 @@ First, we will create the conda environment with the needed requirements and ens
 
 ```console
 $ conda create -y -n bilby python=3.12 bilby_pipe ipykernel lalframe
+$ conda activate bilby
 $ python -m ipykernel install --user --name bilby --display-name "Bilby"
 ```
 
