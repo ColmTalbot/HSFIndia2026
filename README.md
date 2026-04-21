@@ -32,7 +32,7 @@ We will analyze the gravitational wave signal [GW190425](https://arxiv.org/abs/2
 for simplicity, I recommend directly downloading the relevant data (`.gwf`) files from [GWOSC](https://gwosc.org/).
 
 ```console
-$ cd single-event-inference
+$ cd single-event-inference/data
 $ wget https://gwosc.org/eventapi/html/GWTC-2.1-confident/GW190425/v3/L-L1_GWOSC_16KHZ_R1-1240213455-4096.gwf
 $ wget https://gwosc.org/eventapi/html/GWTC-2.1-confident/GW190425/v3/V-V1_GWOSC_16KHZ_R1-1240213455-4096.gwf
 $ cd -

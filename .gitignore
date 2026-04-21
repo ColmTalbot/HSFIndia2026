@@ -1,0 +1,7 @@
+# make sure data files are ignored
+*.gwf
+*.hdf
+*.h5
+*.hdf5
+*.pkl
+*.pickle
