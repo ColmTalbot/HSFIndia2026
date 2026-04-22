@@ -1,7 +1,7 @@
 #!/bin/bash
 
-conda create -y -n bilby python=3.12 bilby_pipe ipykernel lalframe
-conda activate bilby
+# conda create -y -n bilby python=3.12 bilby_pipe ipykernel lalframe
+conda activate /home/colm.talbot/.conda/envs/bilby
 python -m ipykernel install --user --name bilby --display-name "Bilby"
 
 cd single-event-inference/data
